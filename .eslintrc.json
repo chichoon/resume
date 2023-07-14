@@ -1,11 +1,5 @@
 {
-  "extends": [
-    "react-app",
-    "prettier",
-    "plugin:react/recommended",
-    "plugin:prettier/recommended",
-    "next/core-web-vitals"
-  ],
+  "extends": ["react-app", "plugin:react/recommended", "next/core-web-vitals"],
   "env": {
     "browser": true,
     "jasmine": true,
@@ -26,15 +20,9 @@
   "rules": {
     "arrow-body-style": "off",
     "semi": ["warn", "always"],
-    "react/function-component-definition": [
-      "warn",
-      { "namedComponents": "arrow-function" }
-    ],
+    "react/function-component-definition": ["warn", { "namedComponents": "arrow-function" }],
     "react/jsx-one-expression-per-line": "off",
-    "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
-    ],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/jsx-props-no-spreading": "off",
     "react/no-array-index-key": "off",
     "react/require-default-props": "off",
@@ -59,10 +47,7 @@
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      { "argsIgnorePattern": "^_" }
-    ],
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
     "prefer-const": ["warn"],
     "prefer-destructuring": ["error", { "object": true, "array": false }],
     "lines-between-class-members": "off",

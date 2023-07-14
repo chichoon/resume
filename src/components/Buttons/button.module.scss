@@ -1,0 +1,21 @@
+@use '@/styles/constants/colors';
+
+.link {
+  display: inline-block;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: colors.$GRAY9;
+  }
+}
+
+.github {
+  display: inline-block;
+
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: colors.$GRAY3;
+  }
+}

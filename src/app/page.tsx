@@ -1,26 +1,15 @@
-import { Metadata } from "next";
-import {
-  ResumeFootprints,
-  ResumeHeader,
-  ResumeIntroduce,
-  ResumeProjects,
-  ResumeCertificate,
-} from "@/components";
-import {
-  getCertificates,
-  getFootprints,
-  getProfile,
-  getProjects,
-} from "@/services";
+import { Metadata } from 'next';
+import { ResumeFootprints, ResumeHeader, ResumeIntroduce, ResumeProjects, ResumeCertificate } from '@/components';
+import { getCertificates, getFootprints, getProfile, getProjects } from '@/services';
 
-import styles from "./resumePage.module.scss";
+import styles from './resumePage.module.scss';
 
 export const metadata: Metadata = {
-  title: "최지윤의 이력서",
-  description: "지금까지의 이력을 나타낸 이력서입니다.",
-  keywords: "Resume Page",
-  publisher: "최지윤",
-  creator: "최지윤",
+  title: '최지윤의 이력서',
+  description: '지금까지의 이력을 나타낸 이력서입니다.',
+  keywords: 'Resume Page',
+  publisher: '최지윤',
+  creator: '최지윤',
 };
 
 const Page = async () => {

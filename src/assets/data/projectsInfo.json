@@ -1,0 +1,320 @@
+{
+  "transcendence": {
+    "key": "transcendence",
+    "title": "ft_transcendence",
+    "imageRef": "https://user-images.githubusercontent.com/37893979/231684149-aa654edc-3ae9-4416-97a2-b6d558ef3b54.png",
+    "startDateYear": 2023,
+    "startDateMonth": 1,
+    "startDateDay": 20,
+    "endDateYear": 2023,
+    "endDateMonth": 3,
+    "endDateDay": 3,
+    "githubLink": "https://github.com/42Blank/ft_transcendence",
+    "stacks": [
+      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
+      { "name": "React", "color": "61DAFB", "logo": "React" },
+      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
+      { "name": "Emotion", "color": "D26AC2" },
+      { "name": "Socket.io", "color": "010101", "logo": "Socket.io" }
+    ],
+    "summary": "42 서울 마지막 과제로, 온라인으로 Pong 멀티플레이가 가능한 웹 게임 서비스",
+    "description": [
+      {
+        "title": "과제 목표",
+        "mainText": "최초의 비디오 게임인 Pong을 웹 게임으로 구현하는 과제로, 플레이어는 다른 유저와의 채팅, 친구 추가 및 삭제, 게임 매칭, 플레이 기능 등을 사용할 수 있어야 한다."
+      },
+      {
+        "title": "프로젝트 규모",
+        "mainText": "프론트엔드 3인, 백엔드 2인으로 구성된 프로젝트이며, 전체 페이지 디자인 및 채팅 기능, 메인 페이지와 채팅 페이지, 소켓 통신 로직을 맡았다."
+      }
+    ],
+    "technicalSpec": [
+      {
+        "title": "전역 상태관리를 통한 최상단 훅에서의 소켓 관리",
+        "mainText": [
+          "소켓 객체는 단 하나만을 최상단 컴포넌트에서 생성하도록 하고, 이 소켓 객체에서 모든 소켓 통신을 전담하게끔 구조를 잡고 싶었다.",
+          "Socket.io에서 제공하는 소켓 객체는 통신이 이루어질 때마다 변화하므로 Read-Only인 상태값으로서 관리할 수 없어, 대신 소켓 통신에서 사용하는 모든 데이터를 전역으로 관리하는 방향으로 노선을 틀게 되었다.",
+          "채팅을 보내거나 게임 방을 생성할 때마다 전역 데이터를 조작하고, 최상위 훅에서 전역 데이터의 변화를 감지하여 소켓 이벤트를 발생시키는 방식으로 최상단에서만 소켓이 활성화되도록 했다."
+        ]
+      }
+    ],
+    "digest": [
+      { "description": "기획, 전체 페이지 디자인 및 채팅 기능, 메인 페이지와 채팅 페이지, 소켓 통신 로직 담당" },
+      { "description": "전역 상태관리를 통한 최상단 훅에서의 소켓 관리 수행" }
+    ]
+  },
+  "scopa": {
+    "key": "scopa",
+    "title": "SCOPA",
+    "imageRef": "https://user-images.githubusercontent.com/37893979/231683723-f86e8439-115e-4e1e-a9e3-3880d038d831.png",
+    "startDateYear": 2022,
+    "startDateMonth": 11,
+    "startDateDay": 7,
+    "endDateYear": 2022,
+    "endDateMonth": 12,
+    "endDateDay": 16,
+    "githubLink": "https://github.com/boostcampwm-2022/web25-SCOPA",
+    "stacks": [
+      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
+      { "name": "Recoil", "color": "000000" },
+      { "name": "Sass", "color": "CC6699", "logo": "Sass" },
+      { "name": "React", "color": "61DAFB", "logo": "React" }
+    ],
+    "summary": "개인이 작성한 코드를 프로필의 핵심 요소로 내세워\n프로젝트 파트너를 찾는 웹 서비스",
+    "description": [
+      {
+        "title": "만들게 된 계기",
+        "mainText": "부스트캠프에서 팀 프로젝트를 수행하기 위해 팀을 구성했을 때, 팀원 간에 선호하는 코드 스타일이나 컨벤션이 달라서 이를 맞추는 데에 긴 시간이 소요되었다.\n이에 착안하여 코드 스타일을 보고 팀원을 구할 수 있다면 이러한 부분에서 시간을 단축시킬 수 있지 않을까 하는 마음에 프로젝트 주제를 결정하였다."
+      },
+      {
+        "title": "프로젝트 규모",
+        "mainText": "4인 팀 프로젝트로, 프론트엔드 2인, 백엔드 2인으로 작업하였으며, 본인은 프론트엔드 및 디자인 작업을 담당하였다."
+      }
+    ],
+    "technicalSpec": [
+      {
+        "title": "Server Sent Event를 통한 쪽지 알림 기능 추가",
+        "mainText": [
+          "팀 합류를 결정하기 전에 개인 연락처를 주고받기보다는, 서비스에서 자체적으로 연락 수단을 제공하는 것이 좋겠다는 아이디어로 쪽지 기능을 추가하면서 빠른 쪽지 확인을 위한 알림 수신 기능을 함께 추가하였다.",
+          "소켓 통신은 언제 보내질 지 모르는 쪽지 알림을 위해 소켓 연결을 유지하는 것이 리소스적으로 부담되었고, 롱 폴링을 통해 주기적으로 요청을 보내는 방식은 요청을 많이 보내야 하는 데에서 오는 서버적 부담이 있으리라 예상되어 SSE를 선택하게 되었다."
+        ],
+        "link": [
+          {
+            "title": "클라이언트에서 SSE 수신받기",
+            "link": "https://blog.chichoon.com/778"
+          }
+        ]
+      },
+      {
+        "title": "Suspense와 Error Boundary를 통한 상세 페이지 로딩 지연 및 예외처리",
+        "mainText": [
+          "상세 페이지는 처음에 Fetch API를 호출하여 id에 해당하는 사용자 프로필 데이터를 요청한 뒤 도착하는 응답을 이용하여 요소를 렌더링하는데, 이 과정에서 데이터 응답의 속도가 느려지게 되면 사용자가 렌더링이 덜 된 페이지를 볼 위험이 있으며, 존재하지 않는 id에 접근하거나 로그인이 되지 않은 채로 마이페이지에 접근할 경우 렌더링 도중 예상치 못한 오류가 발생할 수 있었다.",
+          "React의 Suspense를 이용하여 데이터 응답이 도착하기 전까지 로딩 컴포넌트를 대신 보여주어 fetch 도중의 페이지 노출을 막았고, 데이터 요청 과정에서 발생하는 예외 상황은 Error Boundary를 통해 잡아 주었다."
+        ],
+        "link": [
+          {
+            "title": "Suspense와 Error Boundary를 통한 상세 페이지 로딩 지연과 예외처리",
+            "link": "https://blog.chichoon.com/774"
+          }
+        ]
+      },
+      {
+        "title": "시맨틱 태그를 활용한 페이지 공용 레이아웃 작업",
+        "mainText": [
+          "박스 요소를 div로 구현했을 때에는 내용물과 스타일시트를 상세히 보기 전까지 해당 태그가 무엇을 의미하는지 파악하기 어려워 시맨틱 태그를 최대한 이용해 협업의 질과 접근성 양 쪽을 모두 잡았다.",
+          "특정 페이지에서 공통적으로 사용되는 레이아웃은 React Router의 Outlet과 중첩 라우팅을 이용하여 공용 레이아웃으로 구현하였다."
+        ],
+        "link": [
+          {
+            "title": "시맨틱 HTML 작성하기",
+            "link": "https://blog.chichoon.com/772"
+          }
+        ]
+      },
+      {
+        "title": "최상위 컴포넌트 훅을 이용한 로그인 유지",
+        "mainText": [
+          "현재 사용자의 로그인 정보는 탈취되어도 상관 없는 id 값을 전역 상태로 저장하여 사용하지만, 새로고침 등 페이지 내의 상호작용이 아닌 방법으로 앱 전체가 다시 마운트될 경우 전역 상태값이 초기화되므로, 로그인을 유지할 다른 방법이 필요했다",
+          "앱의 최상위 컴포넌트인 App에서 커스텀 훅을 이용해 마운트될 때마다 브라우저에 저장된 쿠키를 이용하여 세션 유지 여부를 서버에 요청하고 전역 상태값을 갱신하는 방식으로 새로고침 시에도 로그인 상태를 유지할 수 있도록 했다."
+        ],
+        "link": [
+          {
+            "title": "로그인 유지",
+            "link": "https://blog.chichoon.com/812"
+          }
+        ]
+      },
+      {
+        "title": "로그인 정보를 활용한 페이지 접근 권한 제어",
+        "mainText": [
+          "마이페이지는 비로그인 상태에서 접근할 수 없어야 하고, 로그인 페이지와 회원가입 페이지는 로그인 상태에서 접근할 수 없어야 하며 이러한 경우, 페이지 접근을 시도했을 때 메인 페이지 등으로 리디렉션이 필요하다",
+          "로그인 체크 컴포넌트를 페이지 컴포넌트 상위에 추가하는 방식이 있겠으나, 렌더링 요소가 없는 단순 로직의 경우에는 컴포넌트보다는 훅으로 관리하는 것이 관심사 분리 측면에서 적합하다고 판단되어 커스텀 훅을 통해 접근을 제어했다"
+        ]
+      }
+    ],
+    "digest": [
+      { "description": "기획, 프론트엔드 전반 및 페이지 디자인 작업 담당" },
+      { "description": "Server Sent Event를 통한 쪽지 알림 기능 추가", "link": ["https://blog.chichoon.com/778"] },
+      {
+        "description": "Suspense와 Error Boundary를 통한 상세 페이지 로딩 지연 및 예외처리",
+        "link": ["https://blog.chichoon.com/774"]
+      },
+      { "description": "시맨틱 태그를 활용한 페이지 공용 레이아웃 작업", "link": ["https://blog.chichoon.com/772"] },
+      { "description": "최상위 컴포넌트 훅을 이용한 로그인 유지", "link": ["https://blog.chichoon.com/812"] }
+    ]
+  },
+  "jst": {
+    "key": "jst",
+    "title": "지최표준시",
+    "imageRef": "https://user-images.githubusercontent.com/37893979/231683869-d1fe004e-b7f5-41ee-8f97-884e4aa647ef.png",
+    "startDateYear": 2022,
+    "startDateMonth": 6,
+    "startDateDay": 12,
+    "fakeDateMonth": 7,
+    "githubLink": "https://github.com/chichoon/JiychoiStandardTime",
+    "publishedLink": "https://jst.chichoon.com/main",
+    "stacks": [
+      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
+      { "name": "React", "color": "61DAFB", "logo": "React" },
+      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
+      { "name": "Redux Toolkit", "color": "764ABC" },
+      { "name": "Sass", "color": "CC6699", "logo": "Sass" }
+    ],
+    "summary": "좋은 아침 🌄 입니다,\n아침마다 올리는 추천곡 모아보기 웹서비스",
+    "description": [
+      {
+        "title": "만들게 된 계기",
+        "mainText": "42서울 슬랙 채널에서 2021년 8월부터 아침마다 꾸준히 음악 추천을 하였는데, 채널에 메시지가 쌓일 수록 과거의 추천곡들을 모아보기가 어렵다는 문제점이 있었다.\n재생 목록을 만들되 슬랙 메시지 포맷과 매일매일 업로드된다는 이점을 살리고 싶어 개인 프로젝트로 제작하게 되었다."
+      },
+      {
+        "title": "프로젝트 규모",
+        "mainText": "배운 내용을 복습하기 위해 단기간 빠르게 배포하는 것을 목표로 한 프로젝트로, 기획부터 배포까지 1인 프로젝트로 수행하였다.\n평소에 아이디어만 갖고 있던 프로젝트를 도전해본다는 마음으로 약 일주일 간 빠르게 기획부터 Netlify로 배포까지 전 과정을 혼자 진행하였다."
+      }
+    ],
+    "digest": [
+      { "description": "혼자서 단기간 빠르게 배포하는 것을 목표로 한 프로젝트" },
+      { "description": "기획, 전체 페이지 디자인, 프론트엔드 로직 담당" }
+    ]
+  },
+  "dashboard": {
+    "key": "dashboard",
+    "title": "할일 대시보드",
+    "imageRef": "https://user-images.githubusercontent.com/37893979/231684231-9f40d2cd-b7c6-43c8-8013-1ef607d7baf8.png",
+    "startDateYear": 2022,
+    "startDateMonth": 5,
+    "startDateDay": 22,
+    "endDateYear": 2022,
+    "endDateMonth": 6,
+    "endDateDay": 23,
+    "githubLink": "https://ultimate-todoboard.netlify.app/dashboard",
+    "publishedLink": "https://github.com/chichoon/Ultimate-TodoBoard",
+    "stacks": [
+      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
+      { "name": "React", "color": "61DAFB", "logo": "React" },
+      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
+      { "name": "Redux Toolkit", "color": "764ABC" },
+      { "name": "Sass", "color": "CC6699", "logo": "Sass" }
+    ],
+    "summary": "디데이와 할일, 알고리즘 문제풀이 목록, 날씨 등 컴퓨터 사용 시 필요한 유틸리티들을 한번에 모아볼 수 있는 웹 프로젝트",
+    "description": [
+      {
+        "title": "프로젝트 규모",
+        "mainText": "1인 프론트엔드 프로젝트로, 기획부터 배포까지 혼자 진행하였다."
+      },
+      {
+        "title": "만들게 된 계기",
+        "mainText": [
+          "하루 계획이나 일정, 디데이 등을 핸드폰으로는 모아보기 편하지만 컴퓨터에는 위젯 기능이 없어 불편함을 겪었다.",
+          "브라우저 시작 페이지로 등록하여 사용할 수 있도록 웹 프로젝트로 진행하였다.",
+          "이왕 만드는 김에 이것저것 기능을 붙여 다양한 요소들을 볼 수 있게끔 기획하였다."
+        ]
+      }
+    ],
+    "technicalSpec": [
+      {
+        "title": "반응형 레이아웃 작업",
+        "mainText": [
+          "모바일 환경, 태블릿 환경 등 대부분의 화면 크기에서 대응하기 위해 미디어 쿼리와 그리드 레이아웃을 이용하여 반응형 레이아웃을 구현하였다",
+          "모바일 환경에서의 CSS 로딩을 최소화하기 위해서 모바일 레이아웃을 먼저 작업한 뒤 큰 사이즈의 화면에 대응하도록 했다.",
+          "메뉴바의 위치가 조정되거나, 그리드 레이아웃과 flex 레이아웃 간 전환 등으로 모바일 환경에서도 레이아웃이 유연하게 배치된다."
+        ]
+      }
+    ]
+  },
+  "42world": {
+    "key": "42world",
+    "title": "42World",
+    "imageRef": "https://user-images.githubusercontent.com/37893979/231683789-374c9b8b-6243-4b80-b05b-bc8f737ee5aa.png",
+    "startDateYear": 2022,
+    "startDateMonth": 3,
+    "startDateDay": 4,
+    "githubLink": "https://github.com/42-world",
+    "publishedLink": "https://www.42world.kr/",
+    "stacks": [
+      { "name": "JavaScript", "color": "F7DF1E", "logo": "JavaScript" },
+      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
+      { "name": "React", "color": "61DAFB", "logo": "React" },
+      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
+      { "name": "Styled Components", "color": "DB7093", "logo": "Styled%20Components" },
+      { "name": "Emotion", "color": "D26AC2" }
+    ],
+    "summary": "취업자, 창업자, 알럼나이, 카뎃을 아우르는\n42서울 통합 커뮤니티 채널",
+    "description": [
+      {
+        "title": "만들게 된 계기",
+        "mainText": "슬랙 메신저를 활용할 수 없는 42서울 지원 종료 학생과 졸업생, 재학생 모두가 함께할 수 있는 커뮤니티를 만들자는 아이디어를 가지고 42서울 학생들이 모여 만든 커뮤니티 게시판 서비스이다."
+      },
+      {
+        "title": "프로젝트 규모",
+        "mainText": "프론트엔드 4~6인, 백엔드 4~5인으로 구성된 팀 프로젝트이며, 본인은 프론트엔드 마이페이지 및 애셋 제작을 담당하였다."
+      },
+      {
+        "title": "성과",
+        "mainText": "42서울 커뮤니티에서의 꾸준한 홍보와 이벤트를 통해 누적 500명 이상의 회원수를 확보,\n실제 사용자들에게 피드백과 버그리포팅을 받아 다듬음으로써 사용자와 가까이 할 수 있는 기회가 되었다."
+      }
+    ],
+    "technicalSpec": [
+      {
+        "title": "React Query와 캐시를 이용한 전역 상태관리",
+        "mainText": [
+          "유저 로그인 정보는 모든 페이지에서 이용되기 때문에 전역으로 관리할 필요가 있으며, 따라서 유저 정보는 React Query와 Axios를 이용하여 요청하고, 전역 상태관리는 Recoil을 사용했었다.",
+          "React Query의 useQuery를 사용하면 반복적인 요청을 보내는 대신 캐싱된 데이터를 이용할 수 있으므로, useQuery를 호출하는 커스텀 훅을 만들면 전역 상태값을 사용하듯이 유저 정보를 캐시에서 불러와 사용할 수 있게 된다.",
+          "따라서 유저 정보는 Recoil을 사용하지 않고 React Query만으로도 전역으로 상태 관리가 가능해졌다."
+        ],
+        "link": [
+          {
+            "title": "React-Query의 useQuery 사용기",
+            "link": "https://blog.chichoon.com/555"
+          }
+        ]
+      },
+      {
+        "title": "React Portal과 이벤트 위임을 통한 모달 제작",
+        "mainText": [
+          "마이페이지에서 프로필 캐릭터 선택 화면은 React에서 지원하는 Portal과 이벤트 위임을 이용하여 모달으로 구성하였다.",
+          "Portal은 부모 요소가 아닌 다른 요소의 하위에 렌더링을 할 수 있으며, 이벤트 위임을 통해 문서의 최상단 노드 (document) 에서 이벤트를 감지하되 핸들러 내부에서 이벤트 발생 위치를 파악하고 서로 다른 동작을 수행한다.",
+          "모달이 적용되어야 하는 페이지가 마이페이지밖에 없기 때문에 여러 기능이 포함되어 무거운 라이브러리를 설치하는 것보다는 지역적으로 사용되는 hook과 컴포넌트로 관리하는 것이 적합하다고 판단했다."
+        ],
+        "link": [
+          {
+            "title": "React Portal 사용하기",
+            "link": "https://blog.chichoon.com/527"
+          },
+          {
+            "title": "이벤트 위임을 통한 useClickOutside 구현하기",
+            "link": "https://blog.chichoon.com/622"
+          }
+        ]
+      },
+      {
+        "title": "코드 리팩터링 일지",
+        "mainText": [
+          "기존에 팀에서 시범적으로 도입하였던 Atomic 구조는 아토믹 디자인에 대한 상세한 이해가 부족한 상태에서 적용했던 탓에 Atom과 Molecule의 경계가 모호하게 느껴졌다.",
+          "협업 시에도 어떤 컴포넌트가 어느 폴더에 있는지 직관적으로 알기 어렵다는 문제점이 있었다.",
+          "약 2주간 팀원들과 회의를 통해 폴더 구조 및 컨벤션 개편을 진행하였고, 그에 맞추어 코드를 가독성 좋게 리팩터링하였다.",
+          "현재는 JavaScript로 작성된 코드를 하나씩 TypeScript로 변환하여 타입 관련 오류를 사전에 발견할 수 있게끔 하고, 복잡한 API 데이터 형식을 타입을 통해 정형화함으로써 읽기 쉬운 코드를 만들고 있다."
+        ],
+        "link": [
+          {
+            "title": "Mypage 코드 리팩터링하기",
+            "link": "https://blog.chichoon.com/621"
+          }
+        ]
+      }
+    ],
+    "digest": [
+      { "description": "디자인, 프론트엔드 파트 마이페이지 및 asset 제작을 담당" },
+      { "description": "42서울 커뮤니티에서의 꾸준한 홍보와 이벤트를 통해 누적 500명 이상의 회원수 확보" },
+      { "description": "실제 사용자들에게 피드백과 버그리포팅 수렴 및 반영" },
+      {
+        "description": "React Query와 캐시를 이용한 전역 상태관리",
+        "link": ["https://blog.chichoon.com/555"]
+      },
+      {
+        "description": "React Portal과 이벤트 위임을 통한 모달 제작",
+        "link": ["https://blog.chichoon.com/527", "https://blog.chichoon.com/622"]
+      },
+      { "description": "코드 리팩터링 수행", "link": ["https://blog.chichoon.com/621"] }
+    ]
+  }
+}

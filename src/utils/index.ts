@@ -1,0 +1,1 @@
+export { getPeriodString } from './getPeriodString';

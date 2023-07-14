@@ -1,0 +1,222 @@
+[
+  {
+    "key": "42outer",
+    "title": "42 Seoul 심화과정 (Member)",
+    "startDateYear": 2023,
+    "startDateMonth": 4,
+    "startDateDay": 14,
+    "summary": "4기",
+    "description": [
+      {
+        "title": "42 Seoul 본과정 수료 후 심화과정 활동",
+        "mainText": []
+      }
+    ]
+  },
+  {
+    "key": "boostcamp-membership",
+    "title": "네이버 커넥트재단\n부스트캠프 웹・모바일 7기",
+    "startDateYear": 2022,
+    "startDateMonth": 8,
+    "startDateDay": 31,
+    "endDateYear": 2023,
+    "endDateMonth": 12,
+    "endDateDay": 16,
+    "fakeDateMonth": 9,
+    "summary": "멤버십",
+    "description": [
+      {
+        "title": "멤버십 과정에 참여",
+        "mainText": []
+      },
+      {
+        "title": "SCOPA",
+        "mainText": "코드로 프로젝트 파트너를 찾는 웹 서비스",
+        "githubLink": "https://github.com/boostcampwm-2022/web25-SCOPA",
+        "link": [
+          {
+            "link": "https://about-me.chichoon.com/projects/scopa",
+            "title": "프로젝트 개요"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "boostcamp-challenge",
+    "title": "네이버 커넥트재단\n부스트캠프 웹・모바일 7기",
+    "startDateYear": 2022,
+    "startDateMonth": 7,
+    "startDateDay": 18,
+    "endDateYear": 2023,
+    "endDateMonth": 8,
+    "endDateDay": 12,
+    "summary": "챌린지",
+    "description": [
+      {
+        "title": "챌린지 과정에 참여",
+        "mainText": []
+      }
+    ]
+  },
+  {
+    "key": "preonboarding",
+    "title": "원티드 프리온보딩\n프론트엔드 코스",
+    "startDateYear": 2022,
+    "startDateMonth": 5,
+    "endDateYear": 2022,
+    "endDateMonth": 6,
+    "summary": "4기",
+    "description": [
+      { "title": "프리온보딩 코스에 참여", "mainText": [] },
+      {
+        "title": "할일 대시보드",
+        "mainText": "디데이와 할일, 알고리즘 문제풀이 목록, 날씨 등 컴퓨터 사용 시 필요한 유틸리티들을 한번에 모아볼 수 있는 웹 프로젝트",
+        "githubLink": "https://github.com/42Blank/ft_transcendence",
+        "link": [
+          {
+            "link": "https://about-me.chichoon.com/projects/dashboard",
+            "title": "프로젝트 개요"
+          },
+          {
+            "link": "https://ultimate-todoboard.netlify.app/dashboard",
+            "title": "배포 주소"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "opensource",
+    "title": "오픈소스 컨트리뷰션 아카데미 2021",
+    "startDateYear": 2021,
+    "startDateMonth": 7,
+    "endDateYear": 2021,
+    "endDateMonth": 11,
+    "fakeDateMonth": 9,
+    "summary": "KiCad (PCB Design Tool) 한국어 번역",
+    "description": [
+      {
+        "title": "KiCad 한국어 번역 멘티 활동",
+        "mainText": [
+          "활동 기간 동안 총 49110개의 단어 번역, 추가한 글자 수 52589개로 가장 많은 글자수 기여",
+          "이후 리드 멘티로 발탁되어 3달간 꾸준한 번역 질 개선 및 새로운 번역 참여"
+        ],
+        "link": [{ "link": "https://chichoon.tistory.com/90", "title": "KiCad 한국어 번역 챌린저 활동 근황" }]
+      }
+    ],
+    "digest": [
+      {
+        "description": "활동 기간 동안 총 5,751개 항목의 49,110개의 단어 번역",
+        "link": ["https://hosted.weblate.org/user/chichoon/"]
+      }
+    ]
+  },
+  {
+    "key": "42cursus",
+    "title": "42 Seoul 본과정\n(Learner)",
+    "startDateYear": 2021,
+    "startDateMonth": 5,
+    "startDateDay": 3,
+    "endDateYear": 2023,
+    "endDateMonth": 4,
+    "endDateDay": 14,
+    "fakeDateMonth": 6,
+    "summary": "4기",
+    "description": [
+      {
+        "title": "42 Seoul 본과정 수료",
+        "mainText": []
+      },
+      {
+        "title": "ft_transcendence",
+        "mainText": "42 Seoul 에서의 마지막 과제로, Pong을 플레이하고 점수를 얻으며, 친구와 채팅이 가능한 웹 페이지 구현",
+        "githubLink": "https://github.com/42Blank/ft_transcendence",
+        "link": [
+          {
+            "link": "https://about-me.chichoon.com/projects/transcendence",
+            "title": "프로젝트 개요"
+          }
+        ]
+      },
+      {
+        "title": "지최표준시",
+        "mainText": "아침마다 올리는 추천곡 모아보기 웹서비스",
+        "githubLink": "https://github.com/chichoon/JiychoiStandardTime",
+        "link": [
+          {
+            "link": "https://about-me.chichoon.com/projects/transcendence",
+            "title": "프로젝트 개요"
+          },
+          {
+            "link": "https://jst.chichoon.com/main",
+            "title": "배포 주소"
+          }
+        ]
+      },
+      {
+        "title": "42World",
+        "mainText": "취업자, 창업자, 알럼나이, 카뎃을 아우르는\n42서울 통합 커뮤니티 채널",
+        "githubLink": "https://github.com/42-world",
+        "link": [
+          {
+            "link": "https://about-me.chichoon.com/projects/42world",
+            "title": "프로젝트 개요"
+          },
+          {
+            "link": "https://42world.kr",
+            "title": "배포 주소"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "piscine",
+    "title": "42 Seoul La Piscine",
+    "startDateYear": 2021,
+    "startDateMonth": 3,
+    "startDateDay": 23,
+    "endDateYear": 2023,
+    "endDateMonth": 4,
+    "endDateDay": 16,
+    "summary": "4기",
+    "description": [
+      {
+        "title": "La Piscine 과정 수료",
+        "mainText": []
+      }
+    ]
+  },
+  {
+    "key": "konkuk-university",
+    "title": "건국대학교",
+    "startDateYear": 2017,
+    "startDateMonth": 3,
+    "endDateYear": 2021,
+    "endDateMonth": 2,
+    "fakeDateYear": 2020,
+    "fakeDateMonth": 11,
+    "summary": "전자공학과 학사",
+    "description": [
+      {
+        "title": "전자공학과 학사 졸업",
+        "mainText": [
+          "이동통신개론, 무선통신공학 등의 통신 관련 과목 수강",
+          "안드로이드 프로그래밍, 알고리즘 자료구조, 실시간 운영체제, 논리회로 등 컴퓨터과학 과목 수강"
+        ]
+      },
+      {
+        "title": "졸업작품 (설탕한컵)",
+        "mainText": "졸업작품으로 음료의 당도를 측정하여 칼로리를 예측하는 하드웨어를 만들었다.",
+        "githubLink": "https://github.com/chichoon/Sugar1Cup",
+        "link": [
+          {
+            "link": "https://github.com/chichoon/Sugar1Cup",
+            "title": "Github"
+          }
+        ]
+      }
+    ]
+  }
+]

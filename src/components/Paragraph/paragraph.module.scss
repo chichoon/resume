@@ -1,0 +1,12 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.paragraph {
+  max-width: sizes.$MAIN_INNER_MAX_WIDTH;
+  word-break: keep-all;
+  letter-spacing: 0.05px;
+  width: 100%;
+  white-space: pre-line;
+  font-weight: 400;
+  color: colors.$BLACK;
+}
