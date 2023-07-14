@@ -1,0 +1,44 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.headerWrapper {
+  width: 100%;
+  min-width: sizes.$RESUME_MIN_WIDTH;
+  max-width: sizes.$RESUME_MAX_WIDTH;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: colors.$WHITE;
+
+  h1 {
+    font-size: sizes.$FONT_L;
+    color: colors.$BLACK;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+}
+
+.headerDataWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+  h2 {
+    width: 80px;
+    font-size: sizes.$FONT_M;
+    color: colors.$GRAY6;
+  }
+
+  span {
+    color: colors.$GRAY9;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: sizes.$FONT_MS;
+  }
+}
+
+span.link {
+  text-decoration: underline;
+}

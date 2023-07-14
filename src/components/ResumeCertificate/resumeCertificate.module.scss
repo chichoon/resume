@@ -1,0 +1,52 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.certificatesWrapper {
+  width: 100%;
+}
+
+.certificateWrapper {
+  width: 100%;
+  padding: 20px 0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 200px 1fr;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid colors.$GRAYE;
+  }
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.certificateTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+
+  h3 {
+    font-size: sizes.$FONT_ML;
+    margin-bottom: 5px;
+    color: colors.$GRAY6;
+    display: inline-block;
+  }
+
+  & > span {
+    color: colors.$GRAYA;
+    font-size: sizes.$FONT_MS;
+  }
+}
+
+.certificateScore {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  span {
+    font-size: sizes.$FONT_ML;
+    color: colors.$GRAY6;
+  }
+}

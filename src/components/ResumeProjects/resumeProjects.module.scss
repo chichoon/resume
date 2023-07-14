@@ -1,0 +1,96 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.projects {
+  width: 100%;
+}
+
+.projectWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 1fr;
+  gap: 10px;
+  padding: 20px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid colors.$GRAYE;
+  }
+  &:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.iconAndImageWrapper {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-size: sizes.$FONT_ML;
+    margin-bottom: 5px;
+    color: colors.$GRAY6;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  & > span {
+    color: colors.$GRAYA;
+    font-size: sizes.$FONT_MS;
+    margin-bottom: 15px;
+  }
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: colors.$GRAY6;
+  }
+}
+
+.digestWrapper {
+  display: inline-block;
+  color: colors.$BLACK;
+  font-size: sizes.$FONT_MS;
+  line-height: calc(sizes.$FONT_MS + 4px);
+  margin-bottom: 10px;
+
+  & > span {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+}
+
+.badgeWrapper {
+  margin-bottom: 0;
+
+  & > div {
+    margin-bottom: 0;
+    margin-right: 0;
+    background-color: colors.$WHITE !important;
+    padding-left: 0;
+
+    & > svg,
+    & > div {
+      display: none;
+    }
+
+    & > span {
+      color: colors.$BLACK;
+      margin-left: 0;
+    }
+  }
+}
+
+.projectDigest {
+  margin-top: 10px;
+}

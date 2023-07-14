@@ -1,0 +1,22 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.sectionWrapper {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.title {
+  width: 100%;
+  height: calc(sizes.$FONT_L + 10px);
+  font-size: sizes.$FONT_L;
+  line-height: calc(sizes.$FONT_L + 10px);
+  background-color: colors.$GRAYE;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.inner {
+  width: 100%;
+  padding: 0 10px;
+}

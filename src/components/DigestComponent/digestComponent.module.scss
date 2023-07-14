@@ -1,0 +1,29 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.listWrapper {
+  padding-left: 20px;
+
+  li {
+    list-style: square;
+    margin-bottom: 10px;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  span {
+    color: colors.$BLACK;
+    line-height: calc(sizes.$FONT_MS + 4px);
+    font-size: sizes.$FONT_MS;
+  }
+}
+
+.linkButton {
+  margin-left: 5px;
+  transform: translateY(2px);
+}

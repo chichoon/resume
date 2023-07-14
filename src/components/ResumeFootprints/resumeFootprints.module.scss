@@ -1,0 +1,45 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.footprintsWrapper {
+  width: 100%;
+}
+
+.footprintWrapper {
+  width: 100%;
+  padding: 20px 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid colors.$GRAYE;
+  }
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.footprintTitle {
+  h3 {
+    font-size: sizes.$FONT_ML;
+    margin-bottom: 5px;
+    color: colors.$GRAY6;
+    display: inline-block;
+  }
+
+  & > span {
+    margin-left: 5px;
+    color: colors.$GRAY6;
+    font-size: sizes.$FONT_M;
+    margin-bottom: 15px;
+  }
+}
+
+.footprintTimestamp {
+  color: colors.$GRAYA;
+  font-size: sizes.$FONT_MS;
+  margin-bottom: 15px;
+}
+
+.footprintDigest {
+  margin-top: 10px;
+}
