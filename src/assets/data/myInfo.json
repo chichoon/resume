@@ -2,38 +2,11 @@
   "name": "최지윤",
   "nameInEng": "Ji Yoon Choi",
   "email": "chichoon.choi@gmail.com",
-  "profileImageRef": "https://user-images.githubusercontent.com/37893979/231682998-8d7cc385-133c-48cd-a209-fb1f97b8bd20.png",
-  "resumeImageRef": "https://github.com/chichoon/about-me/assets/37893979/1ad22c71-db59-4a17-b9eb-5bec4ed92347",
   "githubUsername": "chichoon",
   "blogLink": "https://blog.chichoon.com/",
-  "oneLineBio": "열심히 살자",
   "summaries": [
-    "때는 바야흐로 2012년, 풋내기 그림쟁이 치춘 (중2) 는 자신의 그림을 저장할 만한 블로그를 원했다.\n네*버 블로그는 너무 흔하지 않은가? 하던 차에 눈에 들어오던 툴이 있었으니 바로 '나* 웹에디터'...\n돈이 없었던 중학교 2학년 치춘은 무료 평가판으로 자신의 블로그를 깎게 되었고, 이것이 치춘의 기나긴 프론트엔드 여정의 시발점이 되다.",
-    "평가판이 끝난 뒤 그대로 방치되던 블로그와 함께 전자공학과에 진학하게 된 치춘, 프론트엔드 개발을 잊다.\n허나 대학교 3학년 때 수강한 안드로이드 프로그래밍 수업이 치춘의 삶을 바꿔놓았다... \n이때까지만 해도 치춘은 평범한 통신공학도였으나, 안드로이드 수업을 수강한 뒤 자신감이 MAX가 되어 졸업작품으로 어플리케이션 개발을 시작한 것이다!\n스스로 기획부터 그럴듯한 결과물을 내보내기까지 겪어보며 프로그래밍의 길에 비로소 접어들다. 하지만 앞으로 혼자서 어떻게 해야 할지 혼란만.",
-    "42Seoul과의 첫만남, La Piscine은 가혹했다. 본과정에 도달하여 같은 길을 걷는 사람들과 다양하게 교류를 할 수 있었다.\n첫 웹 프로젝트에 도전하고, React 코드를 굉장히 많이 읽고, 1인분이라도 하려고 노력하다. 프로젝트가 산화하다.\n로고를 만들어드린 것을 계기로 42World 팀에 합류하다. 간단한 컴포넌트 오류를 수정하는 것부터 시작해서 인생 첫 웹 페이지를 만들고, 사용자들에게 거대한 피드백도 받아보고, 리팩터링에도 도전해 봄으로써 웹 프로그래머로서의 첫 발을 내딛다.",
-    "몇 개의 사라진 프로젝트들과 프리온보딩, 부스트캠프... 다양한 발자취를 겪어오면서 간신히 1인분을 하게 된 치춘을 만나보자."
-  ],
-  "resumeSummaries": [
     "Github 이슈 트래킹 도구와 작은 단위의 커밋 등을 사용하여 효율적인 업무 분담과 계획 정리에 익숙하고, Notion과 Slack을 활용한 프로젝트 협업과 커뮤니케이션에 능숙합니다.",
     "React 라이브러리의 활용에 대한 경험이 어느 정도 있으며, 코드 재사용성과 오류 수정 용이성을 위해 컴포넌트를 기능 단위로 분리하는 습관을 갖추고 있습니다. 스스로의 발전을 위해 Github를 이용해 프로젝트에 꾸준한 기여 및 블로그에 기록을 남기는 등 지속적으로 자기 개발을 수행하는 중입니다.",
     "프로젝트의 발전을 위해서는 코드의 질보다도 동료 간의 소통이 중요하다는 것을 깨달았으며, 적극적인 대화와 상대방을 존중하는 태도를 갖추는 것이 중요하다는 생각을 견지하며, 팀원과의 원활한 커뮤니케이션과 협업 능력을 향상시키는 것을 목표로 다수의 프로젝트에 참여해 왔습니다."
-  ],
-  "stacks": [
-    { "name": "JavaScript", "color": "F7DF1E", "logo": "JavaScript" },
-    { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
-    { "name": "HTML5", "color": "E34F26", "logo": "HTML5" },
-    { "name": "CSS3", "color": "1572B6", "logo": "CSS3" },
-    { "name": "Sass", "color": "CC6699", "logo": "Sass" },
-    { "name": "React", "color": "61DAFB", "logo": "React" },
-    { "name": "Next.js", "color": "000000", "logo": "Next.js" },
-    { "name": "Socket.io", "color": "010101", "logo": "Socket.io" },
-    { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
-    { "name": "Redux Toolkit", "color": "764ABC" },
-    { "name": "Recoil", "color": "000000" },
-    { "name": "Styled Components", "color": "DB7093", "logo": "Styled%20Components" },
-    { "name": "Emotion", "color": "D26AC2" },
-    { "name": "ESLint", "color": "4B32C3", "logo": "ESLint" },
-    { "name": "Prettier", "color": "F7B93E", "logo": "Prettier" }
-  ],
-  "bioGithubLink": "https://github.com/chichoon/about-me"
+  ]
 }

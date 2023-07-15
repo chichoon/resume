@@ -3,12 +3,8 @@ export interface ProfileType {
   nameInEng: string;
   email: string;
   githubUsername: string;
-  profileImageRef: string;
   blogLink: string;
-  oneLineBio: string;
   summaries: string[];
-  stacks: StackType[];
-  bioGithubLink: string;
 }
 
 interface HistoryType {
@@ -21,24 +17,12 @@ interface HistoryType {
   endDateYear?: number;
   endDateMonth?: number;
   endDateDay?: number;
-  fakeDateYear?: number;
-  fakeDateMonth?: number;
-  fakeDateDay?: number;
   summary: string;
-  description: DescriptionType[];
+  description: DigestType[];
 }
-
-export interface StackType {
-  name: string;
-  color: string;
-  logo?: string;
-}
-
-export interface DescriptionType {
-  title: string;
-  mainText: string | string[];
-  githubLink?: string;
-  link?: LinkType[];
+interface DigestType {
+  description: string;
+  link?: string[];
 }
 
 export interface LinkType {
@@ -50,7 +34,6 @@ export interface ProjectType extends HistoryType {
   githubLink?: string;
   publishedLink?: string;
   stacks: StackType[];
-  technicalSpec?: DescriptionType[];
 }
 
 export interface FootprintType extends HistoryType {}
@@ -65,4 +48,6 @@ export interface CertificateType {
   year: number;
   month: number;
   score?: string;
+  isVisible?: boolean;
+  가;
 }
