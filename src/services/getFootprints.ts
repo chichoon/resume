@@ -1,10 +1,10 @@
-import { ResumeFootprintType } from '@/types/resumeData';
+import { FootprintType } from '@/types/profileData';
 
 import footprints from '@/assets/data/footprintsInfo.json';
 
 export async function getFootprints() {
-  const footprintsList = footprints as ResumeFootprintType[];
-  const data = await new Promise<ResumeFootprintType[]>((resolve) => {
+  const footprintsList = footprints as FootprintType[];
+  const data = await new Promise<FootprintType[]>((resolve) => {
     resolve(footprintsList);
   });
 
