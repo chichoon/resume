@@ -1,8 +1,8 @@
 import { ProjectListType } from '@/types/profileData';
-import { ProjectComponent } from './ProjectComponent';
+import { ProjectElement } from './ProjectElement';
 import { Section } from '../Section';
 
-import styles from './resumeProjects.module.scss';
+import styles from './projects.module.scss';
 
 interface Props {
   projectData: ProjectListType;
@@ -16,7 +16,7 @@ export const Projects = ({ projectData }: Props) => {
         {projectKeys.map(
           (projectKey, index) =>
             projectData[projectKey].digest && (
-              <ProjectComponent project={projectData[projectKey]} key={`project-${index}`} />
+              <ProjectElement project={projectData[projectKey]} key={`project-${index}`} />
             )
         )}
       </ul>

@@ -1,15 +1,16 @@
-import { BadgeList, LinkButton, GithubButton } from '@/components';
-import { getPeriodString } from '@/utils';
 import { ProjectType } from '@/types/profileData';
-import { DigestComponent } from '../DigestComponent';
+import { getPeriodString } from '@/utils';
+import { LinkButton, GithubButton } from '../Buttons';
+import { BadgeList } from '../BadgeList';
+import { Digest } from '../Digest';
 
-import styles from './resumeProjects.module.scss';
+import styles from './projectElement.module.scss';
 
 interface Props {
   project: ProjectType;
 }
 
-export const ProjectComponent = ({ project }: Props) => {
+export const ProjectElement = ({ project }: Props) => {
   const { startDateYear, startDateMonth, startDateDay, endDateYear, endDateMonth, endDateDay } = project;
 
   const periodString = getPeriodString({
@@ -34,9 +35,7 @@ export const ProjectComponent = ({ project }: Props) => {
       <div className={styles.digestWrapper}>
         <span>{project.summary}</span>
         <BadgeList stacks={project.stacks} className={styles.badgeWrapper} />
-        {project.digest && (
-          <DigestComponent elementKey={project.key} digest={project.digest} className={styles.projectDigest} />
-        )}
+        {project.digest && <Digest elementKey={project.key} digest={project.digest} className={styles.projectDigest} />}
       </div>
     </li>
   );
