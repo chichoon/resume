@@ -1,7 +1,5 @@
 export { Header } from './Header';
-export { ResumeIntroduce } from './ResumeIntroduce';
-export { ResumeFootprints } from './ResumeFootprints';
+export { Introduce } from './Introduce';
 export { Projects } from './Projects';
+export { ResumeFootprints } from './ResumeFootprints';
 export { ResumeCertificate } from './ResumeCertificate';
-export { BadgeList } from './BadgeList';
-export { LinkButton, GithubButton } from './Buttons';

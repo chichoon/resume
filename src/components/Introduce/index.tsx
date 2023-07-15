@@ -1,5 +1,5 @@
 import { Paragraph } from './Paragraph';
-import { Section } from './Section';
+import { Section } from '../Section';
 
 interface Props {
   summaries: string[];
