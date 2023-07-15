@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { ResumeFootprints, ResumeHeader, ResumeIntroduce, ResumeProjects, ResumeCertificate } from '@/components';
+import { ResumeFootprints, Header, ResumeIntroduce, ResumeProjects, ResumeCertificate } from '@/components';
 import { getCertificates, getFootprints, getProfile, getProjects } from '@/services';
 
 import styles from './resumePage.module.scss';
@@ -12,7 +12,7 @@ const Page = async () => {
 
   return (
     <>
-      <ResumeHeader profileData={profileData} />
+      <Header profileData={profileData} />
       <main className={styles.mainWrapper}>
         {/* <ResumeIntroduce resumeSummaries={profileData.resumeSummaries} />
         <ResumeProjects projectData={projectData} />

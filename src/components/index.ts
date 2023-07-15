@@ -1,4 +1,4 @@
-export { ResumeHeader } from './ResumeHeader';
+export { Header } from './Header';
 export { ResumeIntroduce } from './ResumeIntroduce';
 export { ResumeFootprints } from './ResumeFootprints';
 export { ResumeProjects } from './ResumeProjects';

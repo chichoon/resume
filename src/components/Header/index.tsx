@@ -1,13 +1,13 @@
 import { ProfileType } from '@/types/profileData';
 import { HeaderElement } from './HeaderElement';
 
-import styles from './resumeHeader.module.scss';
+import styles from './header.module.scss';
 
 interface Props {
   profileData: ProfileType;
 }
 
-export const ResumeHeader = ({ profileData }: Props) => {
+export const Header = ({ profileData }: Props) => {
   return (
     <header className={styles.headerWrapper}>
       <h1>{profileData.name}</h1>
