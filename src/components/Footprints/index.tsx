@@ -1,14 +1,14 @@
-import { ResumeFootprintType } from '@/types/resumeData';
-import { FootprintComponent } from './FootprintComponent';
+import { FootprintType } from '@/types/profileData';
+import { FootprintComponent } from './FootprintElement';
 import { Section } from '../Section';
 
-import styles from './resumeFootprints.module.scss';
+import styles from './footprints.module.scss';
 
 interface Props {
-  footprintData: ResumeFootprintType[];
+  footprintData: FootprintType[];
 }
 
-export const ResumeFootprints = ({ footprintData }: Props) => {
+export const Footprints = ({ footprintData }: Props) => {
   return (
     <Section title='발자취'>
       <ul className={styles.footprintsWrapper}>
