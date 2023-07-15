@@ -1,7 +1,7 @@
 import { ProjectType } from '@/types/profileData';
 import { getPeriodString } from '@/utils';
 import { LinkButton, GithubButton } from '../Buttons';
-import { BadgeList } from '../BadgeList';
+import { BadgeList } from './BadgeList';
 import { Digest } from '../Digest';
 
 import styles from './projectElement.module.scss';
