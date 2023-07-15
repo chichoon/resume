@@ -9,15 +9,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
   user-select: none;
-}
-
-.centered {
-  @include responsive.after(ML) {
-    justify-content: center;
-  }
 }
 
 .badge {
@@ -26,20 +18,12 @@
   align-items: center;
   justify-content: center;
   height: sizes.$FONT_L;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 0 5px;
 
   span {
-    margin-left: 5px;
+    margin-right: 10px;
     font-size: sizes.$FONT_S;
     line-height: 15px;
     vertical-align: center;
-    color: colors.$WHITE;
-  }
-
-  @include responsive.after(M) {
-    margin-right: 10px;
-    margin-bottom: 10px;
+    color: colors.$GRAY3;
   }
 }

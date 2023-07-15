@@ -35,7 +35,7 @@ export const ProjectElement = ({ project }: Props) => {
       <div className={styles.digestWrapper}>
         <span>{project.summary}</span>
         <BadgeList stacks={project.stacks} className={styles.badgeWrapper} />
-        {project.digest && <Digest elementKey={project.key} digest={project.digest} className={styles.projectDigest} />}
+        <Digest elementKey={project.key} digest={project.digest} className={styles.projectDigest} />
       </div>
     </li>
   );
