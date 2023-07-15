@@ -1,0 +1,27 @@
+@use '@/styles/constants/colors';
+@use '@/styles/constants/sizes';
+
+.headerElementWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+  h2 {
+    width: 80px;
+    font-size: sizes.$FONT_M;
+    color: colors.$GRAY6;
+  }
+
+  span {
+    color: colors.$GRAY9;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: sizes.$FONT_MS;
+  }
+}
+
+.link {
+  span {
+    text-decoration: underline;
+  }
+}

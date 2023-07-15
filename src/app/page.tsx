@@ -22,10 +22,10 @@ const Page = async () => {
     <>
       <ResumeHeader profileData={profileData} />
       <main className={styles.mainWrapper}>
-        <ResumeIntroduce resumeSummaries={profileData.resumeSummaries} />
+        {/* <ResumeIntroduce resumeSummaries={profileData.resumeSummaries} />
         <ResumeProjects projectData={projectData} />
         <ResumeFootprints footprintData={footprintData} />
-        <ResumeCertificate certificateData={certificateData} />
+        <ResumeCertificate certificateData={certificateData} /> */}
       </main>
     </>
   );
