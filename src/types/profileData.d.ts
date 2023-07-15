@@ -18,7 +18,7 @@ interface HistoryType {
   endDateMonth?: number;
   endDateDay?: number;
   summary: string;
-  description: DigestType[];
+  digest: DigestType[];
 }
 interface DigestType {
   description: string;
@@ -33,7 +33,7 @@ export interface LinkType {
 export interface ProjectType extends HistoryType {
   githubLink?: string;
   publishedLink?: string;
-  stacks: StackType[];
+  stacks: string[];
 }
 
 export interface FootprintType extends HistoryType {}
@@ -49,5 +49,4 @@ export interface CertificateType {
   month: number;
   score?: string;
   isVisible?: boolean;
-  가;
 }
