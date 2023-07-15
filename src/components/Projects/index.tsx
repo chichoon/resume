@@ -1,14 +1,14 @@
-import { ResumeProjectListType } from '@/types/resumeData';
+import { ProjectListType } from '@/types/profileData';
 import { ProjectComponent } from './ProjectComponent';
 import { Section } from '../Section';
 
 import styles from './resumeProjects.module.scss';
 
 interface Props {
-  projectData: ResumeProjectListType;
+  projectData: ProjectListType;
 }
 
-export const ResumeProjects = ({ projectData }: Props) => {
+export const Projects = ({ projectData }: Props) => {
   const projectKeys = Object.keys(projectData);
   return (
     <Section title='프로젝트'>

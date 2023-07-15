@@ -1,4 +1,4 @@
-import { ResumeProjectType } from '@/types/resumeData';
+import { ProjectType } from '@/types/profileData';
 import { getPeriodString } from '@/utils';
 import { BadgeList } from '@/components/BadgeList';
 import { LinkButton, GithubButton } from '@/components';
@@ -7,7 +7,7 @@ import { DigestComponent } from '../DigestComponent';
 import styles from './resumeProjects.module.scss';
 
 interface Props {
-  project: ResumeProjectType;
+  project: ProjectType;
 }
 
 export const ProjectComponent = ({ project }: Props) => {
