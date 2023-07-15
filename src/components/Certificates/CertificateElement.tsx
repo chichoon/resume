@@ -1,9 +1,9 @@
-import { ResumeCertificateType } from '@/types/resumeData';
+import { CertificateType } from '@/types/profileData';
 
-import styles from './resumeCertificate.module.scss';
+import styles from './certificateElement.module.scss';
 
 interface Props {
-  certificate: ResumeCertificateType;
+  certificate: CertificateType;
 }
 
 export const CertificateComponent = ({ certificate }: Props) => {
