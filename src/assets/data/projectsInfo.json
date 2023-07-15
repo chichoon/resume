@@ -9,13 +9,7 @@
     "endDateMonth": 3,
     "endDateDay": 3,
     "githubLink": "https://github.com/42Blank/ft_transcendence",
-    "stacks": [
-      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
-      { "name": "React", "color": "61DAFB", "logo": "React" },
-      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
-      { "name": "Emotion", "color": "D26AC2" },
-      { "name": "Socket.io", "color": "010101", "logo": "Socket.io" }
-    ],
+    "stacks": ["TypeScript", "React", "React Query", "Emotion", "Socket.io"],
     "summary": "42 서울 마지막 과제로, 온라인으로 Pong 멀티플레이가 가능한 웹 게임 서비스",
     "digest": [
       { "description": "기획, 전체 페이지 디자인 및 채팅 기능, 메인 페이지와 채팅 페이지, 소켓 통신 로직 담당" },
@@ -32,12 +26,7 @@
     "endDateMonth": 12,
     "endDateDay": 16,
     "githubLink": "https://github.com/boostcampwm-2022/web25-SCOPA",
-    "stacks": [
-      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
-      { "name": "Recoil", "color": "000000" },
-      { "name": "Sass", "color": "CC6699", "logo": "Sass" },
-      { "name": "React", "color": "61DAFB", "logo": "React" }
-    ],
+    "stacks": ["TypeScript", "Recoil", "Sass", "React"],
     "summary": "개인이 작성한 코드를 프로필의 핵심 요소로 내세워\n프로젝트 파트너를 찾는 웹 서비스",
     "digest": [
       { "description": "기획, 프론트엔드 전반 및 페이지 디자인 작업 담당" },
@@ -59,14 +48,7 @@
     "startDateDay": 4,
     "githubLink": "https://github.com/42-world",
     "publishedLink": "https://www.42world.kr/",
-    "stacks": [
-      { "name": "JavaScript", "color": "F7DF1E", "logo": "JavaScript" },
-      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
-      { "name": "React", "color": "61DAFB", "logo": "React" },
-      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
-      { "name": "Styled Components", "color": "DB7093", "logo": "Styled%20Components" },
-      { "name": "Emotion", "color": "D26AC2" }
-    ],
+    "stacks": ["JavaScript", "TypeScript", "React", "React Query", "Styled Components", "Emotion"],
     "summary": "취업자, 창업자, 알럼나이, 카뎃을 아우르는\n42서울 통합 커뮤니티 채널",
     "digest": [
       { "description": "디자인, 프론트엔드 파트 마이페이지 및 asset 제작을 담당" },
@@ -93,13 +75,7 @@
     "fakeDateMonth": 7,
     "githubLink": "https://github.com/chichoon/JiychoiStandardTime",
     "publishedLink": "https://jst.chichoon.com/main",
-    "stacks": [
-      { "name": "TypeScript", "color": "3178C6", "logo": "TypeScript" },
-      { "name": "React", "color": "61DAFB", "logo": "React" },
-      { "name": "React Query", "color": "FF4154", "logo": "React%20Query" },
-      { "name": "Redux Toolkit", "color": "764ABC" },
-      { "name": "Sass", "color": "CC6699", "logo": "Sass" }
-    ],
+    "stacks": ["TypeScript", "React Query", "React", "Redux Toolkit", "Sass"],
     "summary": "좋은 아침 🌄 입니다,\n아침마다 올리는 추천곡 모아보기 웹서비스"
   }
 }
