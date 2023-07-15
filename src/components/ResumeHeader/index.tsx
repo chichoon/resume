@@ -1,10 +1,10 @@
-import { ResumeProfileType } from '@/types/resumeData';
-
-import styles from './resumeHeader.module.scss';
+import { ProfileType } from '@/types/profileData';
 import { HeaderElement } from './HeaderElement';
 
+import styles from './resumeHeader.module.scss';
+
 interface Props {
-  profileData: ResumeProfileType;
+  profileData: ProfileType;
 }
 
 export const ResumeHeader = ({ profileData }: Props) => {

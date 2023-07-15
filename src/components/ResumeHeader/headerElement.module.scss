@@ -4,7 +4,11 @@
 .headerElementWrapper {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 
   h2 {
     width: 80px;
