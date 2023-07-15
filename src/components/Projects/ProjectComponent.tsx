@@ -1,7 +1,6 @@
-import { ProjectType } from '@/types/profileData';
+import { BadgeList, LinkButton, GithubButton } from '@/components';
 import { getPeriodString } from '@/utils';
-import { BadgeList } from '@/components/BadgeList';
-import { LinkButton, GithubButton } from '@/components';
+import { ProjectType } from '@/types/profileData';
 import { DigestComponent } from '../DigestComponent';
 
 import styles from './resumeProjects.module.scss';
