@@ -5,8 +5,7 @@
     "startDateYear": 2023,
     "startDateMonth": 4,
     "startDateDay": 14,
-    "summary": "4기",
-    "digest": [{ "description": "42 Seoul 본과정 수료 후 심화과정 활동" }]
+    "summary": "4기"
   },
   {
     "key": "boostcamp-membership",
@@ -17,8 +16,7 @@
     "endDateYear": 2023,
     "endDateMonth": 12,
     "endDateDay": 16,
-    "summary": "멤버십",
-    "digest": [{ "description": "멤버십 과정에 참여" }]
+    "summary": "멤버십"
   },
   {
     "key": "boostcamp-challenge",
@@ -44,8 +42,7 @@
     "startDateMonth": 5,
     "endDateYear": 2022,
     "endDateMonth": 6,
-    "summary": "4기",
-    "digest": [{ "description": "프리온보딩 과정에 참여" }]
+    "summary": "4기"
   },
   {
     "key": "opensource",
@@ -72,8 +69,7 @@
     "endDateYear": 2023,
     "endDateMonth": 4,
     "endDateDay": 14,
-    "summary": "4기",
-    "digest": [{ "description": "42 Seoul 본과정 수료" }]
+    "summary": "4기"
   },
   {
     "key": "konkuk-university",
@@ -82,7 +78,6 @@
     "startDateMonth": 3,
     "endDateYear": 2021,
     "endDateMonth": 2,
-    "summary": "전자공학과 학사",
-    "digest": [{ "description": "학사과정 완료" }]
+    "summary": "전자공학과 학사"
   }
 ]
