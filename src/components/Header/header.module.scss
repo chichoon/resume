@@ -5,17 +5,43 @@
   width: 100%;
   min-width: sizes.$RESUME_MIN_WIDTH;
   max-width: sizes.$RESUME_MAX_WIDTH;
-  padding: 25px 50px;
+  padding: 25px 60px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   background-color: colors.$WHITE;
 
-  h1 {
-    font-size: sizes.$FONT_L;
-    color: colors.$BLACK;
-    margin-bottom: 20px;
-    font-weight: 700;
+  .headerDivider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: sizes.$FONT_XXL;
+      color: colors.$BLACK;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    & > span {
+      font-size: sizes.$FONT_M;
+      color: colors.$GRAY3;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+  }
+}
+
+.headerDividerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
   }
 }

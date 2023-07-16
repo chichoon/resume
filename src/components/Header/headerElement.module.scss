@@ -7,12 +7,12 @@
   align-items: center;
 
   &:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   h2 {
     width: 80px;
-    font-size: sizes.$FONT_M;
+    font-size: sizes.$FONT_MS;
     color: colors.$GRAY6;
   }
 
@@ -20,7 +20,7 @@
     color: colors.$GRAY9;
     text-decoration: none;
     letter-spacing: 0.5px;
-    font-size: sizes.$FONT_MS;
+    font-size: sizes.$FONT_S;
   }
 }
 
