@@ -13,7 +13,9 @@
   h2 {
     width: 80px;
     font-size: sizes.$FONT_MS;
-    color: colors.$GRAY6;
+    color: colors.$SLATE6;
+    font-weight: 500;
+    line-height: calc(sizes.$FONT_MS + 4px);
   }
 
   span {
@@ -21,6 +23,7 @@
     text-decoration: none;
     letter-spacing: 0.5px;
     font-size: sizes.$FONT_S;
+    line-height: calc(sizes.$FONT_MS + 4px);
   }
 }
 

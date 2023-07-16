@@ -8,10 +8,12 @@
 
 .title {
   width: 100%;
-  height: calc(sizes.$FONT_L + 10px);
-  font-size: sizes.$FONT_L;
-  line-height: calc(sizes.$FONT_L + 10px);
-  background-color: colors.$GRAYE;
+  height: calc(sizes.$FONT_XL + 10px);
+  font-size: sizes.$FONT_XL;
+  line-height: calc(sizes.$FONT_XL + 10px);
+  background-color: colors.$SLATE2;
+  color: colors.$SLATE8;
+  font-weight: 600;
   margin-bottom: 20px;
   padding: 0 10px;
 }

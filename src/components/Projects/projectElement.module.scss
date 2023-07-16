@@ -21,16 +21,17 @@
   flex-direction: column;
 
   h3 {
-    font-size: sizes.$FONT_ML;
-    margin-bottom: 5px;
-    color: colors.$GRAY6;
+    font-size: sizes.$FONT_L;
+    margin-bottom: 10px;
+    color: colors.$SLATE6;
+    font-weight: 500;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }
 
   & > span {
-    color: colors.$GRAYA;
+    color: colors.$SLATE4;
     font-size: sizes.$FONT_MS;
     margin-bottom: 15px;
   }
