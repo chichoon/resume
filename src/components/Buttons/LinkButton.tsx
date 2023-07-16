@@ -12,7 +12,13 @@ interface Props {
 
 export const LinkButton = ({ href, size = 15, className }: Props) => {
   return (
-    <a href={href} className={cx(styles.link, className)} target='_blank' style={{ width: size, height: size }}>
+    <a
+      href={href}
+      className={cx(styles.link, className)}
+      target='_blank'
+      rel='noreferrer'
+      style={{ width: size, height: size }}
+    >
       <ShareIcon />
     </a>
   );
