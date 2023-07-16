@@ -2,6 +2,8 @@ export interface ProfileType {
   name: string;
   nameInEng: string;
   email: string;
+  profileSrc: string;
+  job: string;
   githubUsername: string;
   blogLink: string;
   summaries: string[];
