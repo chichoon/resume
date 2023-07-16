@@ -16,12 +16,7 @@
     "endDateYear": 2023,
     "endDateMonth": 12,
     "endDateDay": 16,
-    "summary": "멤버십",
-    "digest": [
-      {
-        "description": "JavaScript 및 TypeScript를 이용하여 웹 전반을 다루는 과제 수행"
-      }
-    ]
+    "summary": "멤버십"
   },
   {
     "key": "boostcamp-challenge",
