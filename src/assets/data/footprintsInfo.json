@@ -11,29 +11,12 @@
     "key": "boostcamp-membership",
     "title": "네이버 커넥트재단\n부스트캠프 웹・모바일 7기",
     "startDateYear": 2022,
-    "startDateMonth": 8,
-    "startDateDay": 31,
-    "endDateYear": 2023,
-    "endDateMonth": 12,
-    "endDateDay": 16,
-    "summary": "멤버십"
-  },
-  {
-    "key": "boostcamp-challenge",
-    "title": "네이버 커넥트재단\n부스트캠프 웹・모바일 7기",
-    "startDateYear": 2022,
     "startDateMonth": 7,
     "startDateDay": 18,
     "endDateYear": 2023,
-    "endDateMonth": 8,
-    "endDateDay": 12,
-    "summary": "챌린지",
-    "description": [
-      {
-        "title": "챌린지 과정에 참여",
-        "mainText": []
-      }
-    ]
+    "endDateMonth": 12,
+    "endDateDay": 16,
+    "summary": "챌린지 ∙ 멤버십"
   },
   {
     "key": "preonboarding",
