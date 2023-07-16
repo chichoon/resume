@@ -12,7 +12,7 @@ const nextConfig = {
   },
 
   images: {
-    domains: [],
+    domains: ['user-images.githubusercontent.com'],
   },
 };
 
