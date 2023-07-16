@@ -51,7 +51,7 @@
     "stacks": ["JavaScript", "TypeScript", "React", "React Query", "Styled Components", "Emotion"],
     "summary": "취업자, 창업자, 알럼나이, 카뎃을 아우르는\n42서울 통합 커뮤니티 채널",
     "digest": [
-      { "description": "디자인, 프론트엔드 파트 마이페이지 및 asset 제작을 담당" },
+      { "description": "디자인, 마이페이지 프론트엔드 및 로고와 마스코트, 홍보 이미지 등 asset 제작을 담당" },
       { "description": "42서울 커뮤니티에서의 꾸준한 홍보와 이벤트를 통해 누적 500명 이상의 회원수 확보" },
       { "description": "실제 사용자들에게 피드백과 버그리포팅 수렴 및 반영" },
       {
