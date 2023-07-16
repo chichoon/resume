@@ -15,7 +15,7 @@ export const Header = ({ profileData }: Props) => {
         <Image src={profileData.profileSrc} alt='profile photo' width={200} height={200} />
         <div className={styles.headerDivider}>
           <h1>{profileData.name}</h1>
-          <span>프론트엔드 개발자</span>
+          <span>{profileData.job}</span>
         </div>
       </div>
       <div className={styles.headerDividerRight}>

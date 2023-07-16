@@ -11,6 +11,19 @@
   align-items: center;
   justify-content: space-between;
   background-color: colors.$WHITE;
+}
+
+.headerDividerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
 
   .headerDivider {
     display: flex;
@@ -26,22 +39,14 @@
 
     & > span {
       font-size: sizes.$FONT_M;
-      color: colors.$GRAY3;
+      color: colors.$GRAY6;
       margin-bottom: 20px;
       font-weight: 400;
     }
   }
 }
 
-.headerDividerLeft {
+.headerDividerRight {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-
-  img {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-  }
+  flex-direction: column;
 }
