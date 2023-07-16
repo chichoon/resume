@@ -68,25 +68,24 @@
   "jst": {
     "key": "solo-project",
     "title": "개인 프로젝트",
-    "imageRef": "https://user-images.githubusercontent.com/37893979/231683869-d1fe004e-b7f5-41ee-8f97-884e4aa647ef.png",
     "startDateYear": 2022,
     "startDateMonth": 6,
     "startDateDay": 12,
     "stacks": ["TypeScript", "React Query", "React", "Redux Toolkit", "Sass"],
-    "summary": "좋은 아침 🌄 입니다,\n아침마다 올리는 추천곡 모아보기 웹서비스",
+    "summary": "혼자 진행한 프로젝트들",
     "digest": [
-      { "description": "디자인, 프론트엔드 파트 마이페이지 및 asset 제작을 담당" },
-      { "description": "42서울 커뮤니티에서의 꾸준한 홍보와 이벤트를 통해 누적 500명 이상의 회원수 확보" },
-      { "description": "실제 사용자들에게 피드백과 버그리포팅 수렴 및 반영" },
       {
-        "description": "React Query와 캐시를 이용한 전역 상태관리",
-        "link": ["https://blog.chichoon.com/555"]
+        "description": "좋은 아침 🌄 입니다, 아침마다 올리는 추천곡 모아보기 웹서비스",
+        "link": ["https://github.com/chichoon/JiychoiStandardTime", "https://jst.chichoon.com/"]
       },
       {
-        "description": "React Portal과 이벤트 위임을 통한 모달 제작",
-        "link": ["https://blog.chichoon.com/527", "https://blog.chichoon.com/622"]
+        "description": "영화 API를 이용한 무한 스크롤 영화검색 어플리케이션",
+        "link": ["https://github.com/chichoon/wanted-movie-app", "https://chichoon.github.io/wanted-movie-app/"]
       },
-      { "description": "코드 리팩터링 수행", "link": ["https://blog.chichoon.com/621"] }
+      {
+        "description": "나에게 필요한 데일리 정보를 담은 할일 대시보드",
+        "link": ["https://github.com/chichoon/Ultimate-TodoBoard", "https://ultimate-todoboard.netlify.app/"]
+      }
     ]
   }
 }

@@ -16,7 +16,12 @@
     "endDateYear": 2023,
     "endDateMonth": 12,
     "endDateDay": 16,
-    "summary": "멤버십"
+    "summary": "멤버십",
+    "digest": [
+      {
+        "description": "JavaScript 및 TypeScript를 이용하여 웹 전반을 다루는 과제 수행"
+      }
+    ]
   },
   {
     "key": "boostcamp-challenge",
@@ -69,7 +74,14 @@
     "endDateYear": 2023,
     "endDateMonth": 4,
     "endDateDay": 14,
-    "summary": "4기"
+    "summary": "4기",
+    "digest": [
+      {
+        "description": "cub3D, ft_irc, ft_transcendence 등의 팀 과제 수행",
+        "link": ["https://github.com/42Blank/ft_irc", "https://github.com/42Blank/ft_transcendence"]
+      },
+      { "description": "42서울 내의 번역 동아리 회장으로 활동하며 영어로 작성된 과제물 다수를 한국어 번역 수행" }
+    ]
   },
   {
     "key": "konkuk-university",
