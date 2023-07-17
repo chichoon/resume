@@ -1,4 +1,19 @@
 {
+  "rookies": {
+    "key": "rookies",
+    "title": "Rook!es 디자인 시스템",
+    "startDateYear": 2023,
+    "startDateMonth": 4,
+    "githubLink": "https://github.com/42-world/Rookies-Design-System",
+    "stacks": ["Tailwind", "React", "TypeScript", "Storybook", "Framer"],
+    "summary": "42World 팀이 모여 만든 디자인 시스템",
+    "digest": [
+      { "description": "프론트엔드 6~7인, 디자이너 3인으로 구성된 프로젝트" },
+      {
+        "description": "기존의 42World 프로젝트를 발판삼아 일관성 있는 디자인을 제공하고 빠른 개발을 가능하게 하기 위한 시스템 개발"
+      }
+    ]
+  },
   "transcendence": {
     "key": "transcendence",
     "title": "ft_transcendence",
