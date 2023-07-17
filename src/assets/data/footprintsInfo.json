@@ -56,7 +56,7 @@
     "digest": [
       {
         "description": "cub3D, ft_irc, ft_transcendence 등의 팀 과제 수행",
-        "link": ["https://github.com/42Blank/ft_irc", "https://github.com/42Blank/ft_transcendence"]
+        "githubLink": ["https://github.com/42Blank/ft_irc", "https://github.com/42Blank/ft_transcendence"]
       },
       { "description": "42서울 내의 번역 동아리 회장으로 활동하며 영어로 작성된 과제물 다수를 한국어 번역 수행" }
     ]

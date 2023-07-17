@@ -25,6 +25,7 @@ interface HistoryType {
 interface DigestType {
   description: string;
   link?: string[];
+  githubLink?: string[];
 }
 
 export interface LinkType {

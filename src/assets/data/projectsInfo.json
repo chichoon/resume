@@ -79,15 +79,18 @@
     "digest": [
       {
         "description": "좋은 아침 🌄 입니다, 아침마다 올리는 추천곡 모아보기 웹서비스",
-        "link": ["https://github.com/chichoon/JiychoiStandardTime", "https://jst.chichoon.com/"]
+        "link": ["https://jst.chichoon.com/"],
+        "githubLink": ["https://github.com/chichoon/JiychoiStandardTime"]
       },
       {
         "description": "영화 API를 이용한 영화검색 애플리케이션",
-        "link": ["https://github.com/chichoon/wanted-movie-app", "https://chichoon.github.io/wanted-movie-app/"]
+        "link": ["https://chichoon.github.io/wanted-movie-app/"],
+        "githubLink": ["https://github.com/chichoon/wanted-movie-app"]
       },
       {
         "description": "나에게 필요한 데일리 정보를 담은 할 일 대시보드",
-        "link": ["https://github.com/chichoon/Ultimate-TodoBoard", "https://ultimate-todoboard.netlify.app/"]
+        "link": ["https://ultimate-todoboard.netlify.app/"],
+        "githubLink": ["https://github.com/chichoon/Ultimate-TodoBoard"]
       }
     ]
   }
