@@ -26,7 +26,7 @@
     "endDateMonth": 12,
     "endDateDay": 16,
     "githubLink": "https://github.com/boostcampwm-2022/web25-SCOPA",
-    "stacks": ["TypeScript", "Recoil", "Sass", "React"],
+    "stacks": ["TypeScript", "Recoil", "Scss", "React"],
     "summary": "개인이 작성한 코드를 프로필의 핵심 요소로 내세워\n프로젝트 파트너를 찾는 웹 서비스",
     "digest": [
       { "description": "기획, 프론트엔드 전반 및 페이지 디자인 작업 담당" },
@@ -71,7 +71,7 @@
     "startDateYear": 2022,
     "startDateMonth": 6,
     "startDateDay": 12,
-    "stacks": ["TypeScript", "React Query", "React", "Redux Toolkit", "Sass"],
+    "stacks": ["TypeScript", "React Query", "React", "Redux Toolkit", "Scss"],
     "summary": "혼자 진행한 프로젝트들",
     "digest": [
       {
