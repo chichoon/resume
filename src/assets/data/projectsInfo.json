@@ -12,6 +12,7 @@
     "stacks": ["TypeScript", "React", "React Query", "Emotion", "Socket.io"],
     "summary": "42 서울 마지막 과제로, 온라인으로 Pong 멀티플레이가 가능한 웹 게임 서비스",
     "digest": [
+      { "description": "프론트엔드 3인, 백엔드 2인으로 구성된 프로젝트" },
       { "description": "기획, 전체 페이지 디자인 및 채팅 기능, 메인 페이지와 채팅 페이지, 소켓 통신 로직 담당" },
       { "description": "전역 상태관리를 통한 최상단 훅에서의 소켓 관리 수행" }
     ]
@@ -29,6 +30,7 @@
     "stacks": ["TypeScript", "Recoil", "Scss", "React"],
     "summary": "개인이 작성한 코드를 프로필의 핵심 요소로 내세워\n프로젝트 파트너를 찾는 웹 서비스",
     "digest": [
+      { "description": "프론트엔드 2인, 백엔드 2인으로 구성된 프로젝트" },
       { "description": "기획, 프론트엔드 전반 및 페이지 디자인 작업 담당" },
       { "description": "Server Sent Event를 통한 쪽지 알림 기능 추가", "link": ["https://blog.chichoon.com/778"] },
       {
@@ -51,6 +53,7 @@
     "stacks": ["JavaScript", "TypeScript", "React", "React Query", "Styled Components", "Emotion"],
     "summary": "취업자, 창업자, 알럼나이, 카뎃을 아우르는\n42서울 통합 커뮤니티 채널",
     "digest": [
+      { "description": "프론트엔드 4~6인, 백엔드 4~5인으로 구성된 프로젝트" },
       { "description": "디자인, 마이페이지 프론트엔드 및 로고와 마스코트, 홍보 이미지 등 asset 제작을 담당" },
       { "description": "42서울 커뮤니티에서의 꾸준한 홍보와 이벤트를 통해 누적 500명 이상의 회원 수 확보" },
       { "description": "실제 사용자들에게 피드백과 버그리포팅 수렴 및 반영" },
@@ -79,7 +82,7 @@
         "link": ["https://github.com/chichoon/JiychoiStandardTime", "https://jst.chichoon.com/"]
       },
       {
-        "description": "영화 API를 이용한 무한 스크롤 영화검색 애플리케이션",
+        "description": "영화 API를 이용한 영화검색 애플리케이션",
         "link": ["https://github.com/chichoon/wanted-movie-app", "https://chichoon.github.io/wanted-movie-app/"]
       },
       {
