@@ -7,7 +7,9 @@ interface Props {
 }
 
 export const CertificateComponent = ({ certificate }: Props) => {
-  const date = `${certificate.year}. ${certificate.month.toString().padStart(2, '0')}`;
+  const date = `${certificate.year}. ${certificate.month.toString().padStart(2, '0')}${
+    certificate.day ? '. ' + certificate.day.toString().padStart(2, '0') : ''
+  }`;
 
   return (
     <li className={styles.certificateWrapper}>

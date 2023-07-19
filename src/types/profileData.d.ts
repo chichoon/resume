@@ -50,6 +50,7 @@ export interface CertificateType {
   title: string;
   year: number;
   month: number;
+  day?: number;
   score?: string;
   isVisible?: boolean;
 }
