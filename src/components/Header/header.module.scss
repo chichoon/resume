@@ -15,34 +15,21 @@
 
 .headerDividerLeft {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
 
-  img {
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+  h1 {
+    font-size: sizes.$FONT_XXL;
+    color: colors.$BLACK;
+    margin-bottom: 10px;
+    font-weight: 700;
   }
 
-  .headerDivider {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    h1 {
-      font-size: sizes.$FONT_XXL;
-      color: colors.$BLACK;
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-
-    & > span {
-      font-size: sizes.$FONT_M;
-      color: colors.$GRAY6;
-      margin-bottom: 20px;
-      font-weight: 400;
-    }
+  & > span {
+    font-size: sizes.$FONT_M;
+    color: colors.$GRAY6;
+    font-weight: 400;
   }
 }
 
