@@ -99,11 +99,6 @@
         "githubLink": ["https://github.com/chichoon/JiychoiStandardTime"]
       },
       {
-        "description": "영화 API를 이용한 영화검색 애플리케이션",
-        "link": ["https://chichoon.github.io/wanted-movie-app/"],
-        "githubLink": ["https://github.com/chichoon/wanted-movie-app"]
-      },
-      {
         "description": "나에게 필요한 데일리 정보를 담은 할 일 대시보드",
         "link": ["https://ultimate-todoboard.netlify.app/"],
         "githubLink": ["https://github.com/chichoon/Ultimate-TodoBoard"]
