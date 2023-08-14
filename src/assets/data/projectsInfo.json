@@ -31,7 +31,7 @@
       { "description": "기획, 전체 페이지 디자인 및 채팅 기능, 메인 페이지와 채팅 페이지, 소켓 통신 로직 담당" },
       { "description": "전역 상태관리 라이브러리를 이용한 최상단 훅에서의 소켓 관리" },
       { "description": "Socket.io를 이용한 클라이언트 간 채팅 기능 추가" },
-      { "description": "42 OAuth 로그인 구현", "link": ["https://blog.chichoon.com/892"] }
+      { "description": "42 OAuth를 이용한 로그인 구현", "link": ["https://blog.chichoon.com/892"] }
     ]
   },
   "scopa": {
@@ -50,12 +50,7 @@
       { "description": "프론트엔드 2인, 백엔드 2인으로 구성된 프로젝트" },
       { "description": "기획, 프론트엔드 전반 및 페이지 디자인 작업 담당" },
       { "description": "Server Sent Event를 통한 쪽지 알림 기능 추가", "link": ["https://blog.chichoon.com/778"] },
-      {
-        "description": "Suspense와 Error Boundary를 통한 상세 페이지 로딩 지연 및 예외 처리",
-        "link": ["https://blog.chichoon.com/774"]
-      },
-      { "description": "시맨틱 태그를 활용한 페이지 공용 레이아웃 작업", "link": ["https://blog.chichoon.com/772"] },
-      { "description": "최상위 컴포넌트 훅을 이용한 로그인 유지", "link": ["https://blog.chichoon.com/812"] }
+      { "description": "시맨틱 태그를 활용한 페이지 공용 레이아웃 작업", "link": ["https://blog.chichoon.com/772"] }
     ]
   },
   "42world": {
